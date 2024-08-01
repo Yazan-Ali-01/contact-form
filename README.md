@@ -120,13 +120,3 @@ If more time were available, the following enhancements would be made:
 - **UI Customization**: Providing more customization options in the UI for better user experience and branding alignment.
 - **Accessibility Improvements**: Ensuring the application is fully accessible, adhering to WCAG guidelines.
 
-## Real-World Considerations
-
-**If this were a real-world project, the following improvements would be made:**
-- Implement real-world authentication instead of mock credentials.
-- Use an enterprise-level process manager (e.g., PM2) for better management.
-- Deploy with Kubernetes for container orchestration.
-- Adopt Domain-Driven Design (DDD) instead of the MVC pattern for better scalability and maintainability.
-- Include Swagger or Postman documentation for API endpoints.
-- Implement automation testing, including unit tests for critical components.
-- Develop production-level Docker files instead of the current simple development ones.

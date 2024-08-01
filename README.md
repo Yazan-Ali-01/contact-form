@@ -2,7 +2,7 @@
 This project is a "Contact Us" form developed as part of an assessment to demonstrate skills in backend and frontend development using the MERN stack. The application includes features for users to submit queries and an admin portal to manage these submissions.
 
 ## Backend
-This project consists of a "Contact Us" form with backend functionalities to store submissions in a MongoDB database and send emails to both the user and the admin. The admin portal allows for viewing, exporting, and managing submissions.
+This project consists of a "Contact Us" form with backend functionalities to store submissions in a MongoDB database and send emails to both the user and the admin. The admin portal allows for viewing and exporting submissions.
 
 ## Features
 

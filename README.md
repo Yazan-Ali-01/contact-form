@@ -104,13 +104,11 @@ The application Backend is accessed via Nginx, which acts as a reverse proxy to 
       
 
 - Set up environment variables by creating a .env file in the root directory:
-`
+```
     -VITE_API_URL=http://localhost:8080/api
-  
     -VITE_PRIMARY_COLOR='#ff4081'
-    
     -VITE_SECONDARY_COLOR='#f50057'
-`
+```
 
 
 ## Potential Enhancements

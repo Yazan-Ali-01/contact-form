@@ -113,7 +113,7 @@ The application Backend is accessed via Nginx, which acts as a reverse proxy to 
 
  - Start the server:
   
-        ```npm start```
+        npm start
 
 
 

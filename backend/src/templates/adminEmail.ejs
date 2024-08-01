@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <title>New Submission Notification</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    a {
+      font-family: 'Arial', sans-serif;
+      color: #333333;
+      margin: 0;
+      /* Remove default margins */
+      padding: 8px 0;
+      /* Apply vertical padding */
+    }
+
+    /* Additional styles for better visual hierarchy */
+    h1 {
+      padding-top: 0;
+      font-size: 24px;
+      /* Larger font size for main title */
+    }
+
+    p {
+      font-size: 16px;
+      /* Smaller font size for paragraphs */
+    }
+
+    .content {
+      background-color: #ffffff;
+      padding: 20px;
+    }
+
+    .footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 10px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <table width="100%" bgcolor="#f4f4f4" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td align="center">
+        <table width="600" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td align="center" bgcolor="#ffffff" style="padding: 20px; text-align: center;">
+              <img src="https://www.bridgingfx.net/assets/images/logo/logo.png" width="200" height="100"
+                alt="Company Logo">
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#d7f1ff" style="padding: 20px;">
+              <h1>New Contact Form Submission</h1>
+              <p>Dear Admin,</p>
+              <p>A new contact form submission has been received:</p>
+              <p><strong>Name:</strong> <%= name %></p>
+              <p><strong>Email:</strong> <%= email %></p>
+              <p><strong>Subject:</strong> <%= subject %></p>
+              <p><strong>Message:</strong> <%= message %></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="footer">
+              <p>This is an automated message. Please do not reply directly to this email.</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

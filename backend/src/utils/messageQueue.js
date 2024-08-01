@@ -1,6 +1,4 @@
 import amqp from 'amqplib';
-import { sendUserEmail, sendAdminEmail } from '../services/emailService.js';
-
 const rabbitMQURL = process.env.RABBITMQ_URL;
 let retryCount = 0;
 const maxRetries = 6;

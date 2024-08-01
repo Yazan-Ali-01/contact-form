@@ -111,6 +111,11 @@ The application Backend is accessed via Nginx, which acts as a reverse proxy to 
     -VITE_BACKEND_URL=http://localhost:8080
 ```
 
+ - Start the server:
+  
+        ```npm start```
+
+
 
 ## Potential Enhancements
 If more time were available, the following enhancements would be made:

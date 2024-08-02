@@ -58,6 +58,7 @@ There are two ways to run the project:
   - Start the server:
   
         npm start
+        node workers/emailWorker.js
 - **Running with Docker**: 
   If you prefer to use Docker, you can start all required services using Docker Compose. This includes the application, MongoDB, and RabbitMQ.
   - Build and start the containers:
